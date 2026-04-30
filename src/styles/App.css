@@ -1,6 +1,9 @@
 body {
     margin: 0;
     padding-top: 130px;
+    font-family: Arial, sans-serif;
+    background: #f9fafb;
+    overflow-x: hidden;
 }
 
 .top-bar {
@@ -11,40 +14,32 @@ body {
     width: 100%;
 }
 
-/* RESET GLOBAL */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* CONFIGURACIÓN BASE */
 html {
     font-size: 16px;
     scroll-behavior: smooth;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    overflow-x: hidden;
+#root {
     width: 100%;
     min-height: 100vh;
-    background: #f9fafb;
 }
 
-/* IMÁGENES RESPONSIVE */
 img {
     max-width: 100%;
     height: auto;
     display: block;
 }
 
-/* BOTONES */
 button {
     font-family: inherit;
 }
 
-/* INPUTS Y SELECTS */
 input,
 select,
 textarea {
@@ -53,12 +48,10 @@ textarea {
     outline: none;
 }
 
-/* LINKS */
 a {
     text-decoration: none;
 }
 
-/* CONTENEDOR GLOBAL */
 .container {
     width: 100%;
     max-width: 1200px;
@@ -66,10 +59,19 @@ a {
     padding: 0 20px;
 }
 
-/* RESPONSIVE GLOBAL TABLET */
 @media (max-width: 1024px) {
     html {
         font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 180px;
+    }
+
+    html {
+        font-size: 14px;
     }
 
     .container {
@@ -77,38 +79,12 @@ a {
     }
 }
 
-/* RESPONSIVE GLOBAL MÓVIL */
-@media (max-width: 768px) {
-    html {
-        font-size: 14px;
-    }
-
-    body {
-        overflow-x: hidden;
-    }
-
-    .container {
-        padding: 0 12px;
-    }
-}
-
-/* RESPONSIVE GLOBAL MÓVIL PEQUEÑO */
 @media (max-width: 480px) {
     html {
         font-size: 13px;
     }
 
-    .container {
-        padding: 0 10px;
+    body {
+        padding-top: 200px;
     }
-}
-
-#root {
-    width: 100%;
-    min-height: 100vh;
-}
-
-body {
-    width: 100%;
-    overflow-x: hidden;
 }

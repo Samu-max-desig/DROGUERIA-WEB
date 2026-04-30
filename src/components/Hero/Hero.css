@@ -1,5 +1,5 @@
 .hero {
-    padding: 80px 40px;
+    padding: 80px 20px;
     background-color: #f5f7fa;
     display: flex;
     justify-content: center;
@@ -7,6 +7,7 @@
 }
 
 .hero-content {
+    width: 100%;
     max-width: 800px;
 }
 
@@ -28,7 +29,6 @@
     padding: 15px;
     border: 1px solid #d1d5db;
     border-radius: 10px;
-    font-size: 1rem;
 }
 
 .hero-buttons {
@@ -44,58 +44,28 @@
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    font-weight: 600;
 }
 
 .catalog-btn {
-    background-color: #2563eb;
+    background: #2563eb;
     color: white;
 }
 
 .delivery-btn {
-    background-color: #16a34a;
+    background: #16a34a;
     color: white;
 }
 
-.search-results {
-    margin-top: 20px;
-    display: grid;
-    gap: 15px;
-}
-
-.search-card {
-    background: white;
-    padding: 15px;
-    border-radius: 10px;
-    border: 1px solid #e5e7eb;
-    text-align: left;
-}
-
-.search-card p {
-    margin: 5px 0;
-}
-
-.order-btn {
-    margin-top: 10px;
-    padding: 10px 15px;
-    border: none;
-    background-color: #16a34a;
-    color: white;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: 600;
-}
-
-.order-btn:hover {
-    background-color: #15803d;
-}
-
-/* RESPONSIVE HERO */
 @media (max-width: 768px) {
+    .hero {
+        padding: 50px 20px;
+    }
 
-    .hero,
-    .hero-content,
-    .hero-image {
-        width: 100%;
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
     }
 }
