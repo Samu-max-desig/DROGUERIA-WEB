@@ -1,0 +1,91 @@
+.hero {
+    padding: 80px 40px;
+    background-color: #f5f7fa;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #6b7280;
+    margin-bottom: 30px;
+}
+
+.hero-search input {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.hero-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.catalog-btn,
+.delivery-btn {
+    padding: 14px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.catalog-btn {
+    background-color: #2563eb;
+    color: white;
+}
+
+.delivery-btn {
+    background-color: #16a34a;
+    color: white;
+}
+
+.search-results {
+    margin-top: 20px;
+    display: grid;
+    gap: 15px;
+}
+
+.search-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    text-align: left;
+}
+
+.search-card p {
+    margin: 5px 0;
+}
+
+.order-btn {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #16a34a;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.order-btn:hover {
+    background-color: #15803d;
+}

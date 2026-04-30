@@ -1,0 +1,11 @@
+.banner {
+    background: #16a34a;
+    color: white;
+    padding: 14px 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.banner p {
+    margin: 0;
+}

@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    padding-top: 130px;
+}
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background: white;
+    width: 100%;
+}
