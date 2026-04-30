@@ -40,9 +40,6 @@
 @media (max-width: 768px) {
     .catalog-grid {
         grid-template-columns: 1fr;
-    }
-
-    .category-filters {
-        justify-content: center;
+        width: 100%;
     }
 }

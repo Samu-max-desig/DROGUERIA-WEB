@@ -47,16 +47,10 @@ nav ul li:hover {
 
 /* RESPONSIVE HEADER */
 @media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        gap: 20px;
-        padding: 20px;
-        text-align: center;
-    }
-
-    nav ul {
-        flex-direction: column;
-        gap: 15px;
+    @media (max-width: 768px) {
+        nav ul {
+            align-items: center;
+        }
     }
 
     .whatsapp-btn {
