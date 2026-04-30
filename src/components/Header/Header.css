@@ -44,3 +44,22 @@ nav ul li:hover {
 .whatsapp-btn:hover {
     background-color: #15803d;
 }
+
+/* RESPONSIVE HEADER */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .whatsapp-btn {
+        width: 100%;
+    }
+}

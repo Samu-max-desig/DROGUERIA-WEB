@@ -89,3 +89,21 @@
 .order-btn:hover {
     background-color: #15803d;
 }
+
+/* RESPONSIVE HERO */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-image {
+        width: 100%;
+        margin-top: 20px;
+    }
+}

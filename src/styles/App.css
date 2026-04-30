@@ -10,3 +10,95 @@ body {
     background: white;
     width: 100%;
 }
+
+/* RESET GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CONFIGURACIÓN BASE */
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+    min-height: 100vh;
+    background: #f9fafb;
+}
+
+/* IMÁGENES RESPONSIVE */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* BOTONES */
+button {
+    font-family: inherit;
+}
+
+/* INPUTS Y SELECTS */
+input,
+select,
+textarea {
+    width: 100%;
+    font-family: inherit;
+    outline: none;
+}
+
+/* LINKS */
+a {
+    text-decoration: none;
+}
+
+/* CONTENEDOR GLOBAL */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* RESPONSIVE GLOBAL TABLET */
+@media (max-width: 1024px) {
+    html {
+        font-size: 15px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+}
+
+/* RESPONSIVE GLOBAL MÓVIL */
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        padding: 0 12px;
+    }
+}
+
+/* RESPONSIVE GLOBAL MÓVIL PEQUEÑO */
+@media (max-width: 480px) {
+    html {
+        font-size: 13px;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+}

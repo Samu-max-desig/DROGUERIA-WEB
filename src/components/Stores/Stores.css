@@ -40,3 +40,14 @@
     border-radius: 8px;
     cursor: pointer;
 }
+
+/* RESPONSIVE STORES */
+@media (max-width: 768px) {
+    .stores-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .store-card {
+        width: 100%;
+    }
+}

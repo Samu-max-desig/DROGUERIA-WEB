@@ -66,3 +66,20 @@
 .delivery-form select:focus {
     border-color: #2563eb;
 }
+
+/* RESPONSIVE DELIVERY FORM */
+@media (max-width: 768px) {
+    .delivery-form {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .form-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .sector-info {
+        padding: 12px;
+    }
+}
